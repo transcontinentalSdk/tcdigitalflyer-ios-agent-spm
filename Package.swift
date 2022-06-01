@@ -13,7 +13,7 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "TCDigitalFlyer",
-            url:"https://transfer.tds.transcontinental.ca/TCDigitalFlyer-1.1.0.xcframework.zip",
-            checksum: "9e299610c73e180e4190451c4bb331275de24f8a650069ae03199dec11bf8e30"),
+            url:"https://transfer.tds.transcontinental.ca/TCDigitalFlyer-1.1.1.xcframework.zip",
+            checksum: "f035bad2b0db9b0fe624c680f0f424c2779500e70bc4bd731b4beb84cf28d67b"),
     ]
 )
