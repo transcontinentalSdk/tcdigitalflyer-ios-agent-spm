@@ -1,11 +1,11 @@
-// swift-tools-version:5.5
+// swift-tools-version:5.8
 
 import PackageDescription
 
 let package = Package(
     name: "TCDigitalFlyer",
     platforms: [
-        .iOS(.v12),
+        .iOS(.v13),
     ],
     products: [
         .library(name: "TCDigitalFlyer", targets: ["TCDigitalFlyer"]),
@@ -13,7 +13,7 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "TCDigitalFlyer",
-            url:"https://transfer.tds.transcontinental.ca/TCDigitalFlyer-1.1.2.xcframework.zip",
-            checksum: "60ae1ba41638bb497e89b33f7918c042567100d427c96000db55a0c1a70bdc4e"),
+            url:"https://transfer.tds.transcontinental.ca/TCDigitalFlyer-1.9.9-15.0.xcframework.zip",
+            checksum: "eaf08582be928c993659fbd3fbd1d823b7ba0596171fbfadbfe4ec0ead2fb151"),
     ]
 )
